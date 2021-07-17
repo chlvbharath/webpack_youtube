@@ -4,23 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "build": "webpack"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chlvbharath/webpack_youtube.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/chlvbharath/webpack_youtube/issues"
-  },
-  "homepage": "https://github.com/chlvbharath/webpack_youtube#readme",
-  "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "webpack": "^5.45.1",
     "webpack-cli": "^4.7.2",
