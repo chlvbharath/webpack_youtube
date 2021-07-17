@@ -3,4 +3,9 @@ const elvenRecipe = {
   ironIgnot: 1,
   refine: 4,
 };
-console.log(elvenRecipe);
+const sample = {
+  ...elvenRecipe,
+  qty: 23,
+  store: "costco",
+};
+console.log(elvenRecipe, sample);
