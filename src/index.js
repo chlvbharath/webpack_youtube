@@ -1,3 +1,4 @@
+import "./styles/index.scss";
 const elvenRecipe = {
   strips: 2,
   ironIgnot: 1,
@@ -6,6 +7,7 @@ const elvenRecipe = {
 const sample = {
   ...elvenRecipe,
   qty: 23,
-  store: "costco",
+  store: "costcos",
+  address: "unavailables",
 };
-console.log(elvenRecipe, sample);
+console.log(elvenRecipe, sample, "hellp");
